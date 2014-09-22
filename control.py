@@ -29,4 +29,5 @@ def blink(signal):
         time.sleep(unit*3)
         GPIO.output(led, 0) # disable LED
         time.sleep(unit)
-
+    elif signal == " ":
+        time.sleep(unit)
