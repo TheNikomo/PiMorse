@@ -9,21 +9,3 @@ for character in userinput:
     for signal in signals:
         control.blink(signal)
 
-
-
-
-
-
-
-
-
-
-
-"""
-for k, v in morse.items():
-    print(k)
-    for signal in v:
-        control.blink(signal)
-"""
-
-
